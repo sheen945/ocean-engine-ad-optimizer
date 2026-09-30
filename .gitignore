@@ -1,0 +1,24 @@
+# 环境变量与凭据
+.env
+.env.local
+*.key
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# 本地数据 / 构建产物
+*.db
+*.sqlite3
+*.log
+logs/
+build/
+dist/
+output/
